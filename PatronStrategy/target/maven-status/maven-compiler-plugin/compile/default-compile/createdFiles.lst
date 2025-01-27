@@ -1,0 +1,6 @@
+ConcretStrategy\Car.class
+InterfaceAcelerate\Acelerate.class
+ConcretStrategy\Bike.class
+com\mycompany\patronstrategy\PatronStrategy.class
+Controller\StrategyController.class
+ConcretStrategy\MotorBike.class
