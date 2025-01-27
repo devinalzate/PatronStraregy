@@ -9,5 +9,5 @@ package InterfaceAcelerate;
  * @author DEVIN ALZATE
  */
 public interface Acelerate {
-    public String acelerate();
+    public void acelerate(boolean closh, boolean acelerate);
 }

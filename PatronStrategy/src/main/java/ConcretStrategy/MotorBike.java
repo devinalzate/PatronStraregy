@@ -11,12 +11,20 @@ import InterfaceAcelerate.Acelerate;
  * @author DEVIN ALZATE
  */
 public class MotorBike implements Acelerate{
-    
-    
-    
+
     @Override
-    public String acelerate() {
-        return "La moto ha comenzado a ser acelerada";
+    public void acelerate(boolean closh, boolean acelerate) {
+        if(closh == false || acelerate == false){
+            System.out.println("El carro esta apagado");
+        }else if(closh == true || acelerate == false){
+            System.out.println("Falta acelerar");
+        }else if(closh == true || acelerate == true){
+            System.out.println("moto acelerada");
+        }
     }
+    
+    
+    
+    
     
 }

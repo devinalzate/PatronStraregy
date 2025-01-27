@@ -4,7 +4,6 @@
 
 package com.mycompany.patronstrategy;
 
-import ConcretStrategy.Bike;
 import ConcretStrategy.Car;
 import ConcretStrategy.MotorBike;
 import Controller.StrategyController;
@@ -17,8 +16,10 @@ public class PatronStrategy {
 
     public static void main(String[] args) {
         StrategyController controller = new StrategyController(new Car());
-        System.out.println(controller.EjectStrategy());
+        controller.EjectStrategy(false, false);
         
+        StrategyController controller2 = new StrategyController(new MotorBike());
+        controller2.EjectStrategy(true, true);
         
     }
 }

@@ -18,7 +18,7 @@ public class StrategyController {
     }
     
     
-    public String EjectStrategy(){
-        return acelerate.acelerate();
+    public void EjectStrategy(boolean one, boolean two){
+        acelerate.acelerate(one, two);
     }
 }
